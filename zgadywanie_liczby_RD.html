@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Zgadnij liczbe</title>
+    <style media="screen">
+    html {
+      font-family:sans-serif;
+    }
+
+    body {
+      width: 50%;
+      max-widths:800px;
+      min-width: 480px;
+      margin: 0 auto;
+    }
+
+    .lastResult {
+      color: white;
+      padding: 3px;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Zgadnij liczbe</h1>
+    <p>Program wybral liczbe od 1 do 100. Sprawdz, czy uda Ci sie ja odgadnac w mniej niz 10 prob. Otrzymasz podpowiedzi o tym, czy zgadywana przez Ciebie wartosc jest zbyt duza lub zbyt mala</p>
+      <div class="form">
+        <label for="guessField">Wprowadz liczbe: </label>
+        <input type="text" id="guessField" class="guessField">
+        <input type="submit" value="Wyslij odpowiedz" class="guessSubmit">
+      </div>
+      <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+      </div>
+//------------------------------------------------
+      <div class="startowe">
+        <label for="guessField1">Wprowadz liczbe1: </label>
+        <input type="text" id="guessField1" class="guessField1">
+        <input type="submit" value="Wyslij odpowiedz1" class="guessSubmit1">
+      </div>
+
+      <div id="div1" class="div_result">
+        <p class="p_test"></p>
+        <p>jest sobie jakis text</p>
+        <p>jest sobie jakis tex2</p>
+
+
+      </div>
+
+
+
+      <script type="text/javascript" src="zgadywanie_RD.js"></script>
+  </body>
+</html>
